@@ -1,0 +1,2 @@
+Format the time added into the "Time In" Column to be on a 12 Hour Format
+Create a functionality that calculates the amount of time that has passed since the time inputted and counts

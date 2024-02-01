@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Table</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="hourly-information">
+        <div class="row all-content">
+            <div class="col-2 left-bar">
+                <div class="row">
+                    <div class="image-container">
+                        <img src="assets/Fairmont.png" alt="Fairmont Royal York Logo">
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 content">
+                <div class="search-bar">
+                        <form class="form-inline searching" id="search-form" onsubmit="return false;">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="search-input" placeholder="Search RY..." autocomplete="off" required=true>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary submit" id="search-button">Search</button>
+                            </div>
+                            <div class="form-group">
+                            <button id="resetTableButton" class="btn btn-secondary" onClick="resetTableView()">Reset</button>
+                            <div id="search-result" class="mt-2 result">
+                            </div> 
+
+                        </div>
+                        </form>                      
+                </div>
+                <div class="table-container">
+                    <table class="table table-items">
+                        <thead>
+                            <tr class="titles">
+                                <th scope="col" class="font-weight-light">RY Number</th>
+                                <th scope="col" class="font-weight-light">Time In</th>
+                                <th scope="col" class="font-weight-light">Time Elapsed</th>
+                                <th scope="col" class="font-weight-light">Current Charge</th>
+                                <th scope="col" class="font-weight-light">Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+               
+            <div class="bottom-div">               
+                <div class="row buttons">
+                    <button id="addRowButton" class="btn btn-primary">New Hourly</button>
+                    <button id="delInformation" class="btn btn-primary">Delete Information</button>
+                </div>
+
+            <!-- Form (initially hidden) -->
+                <div class="row input-form justify-content-center larger-form-container">
+                    <div id="formContainer" class="col-md-3 forms" style="display:none;">
+                        <form id="myForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="RYNumber" placeholder="RY Number" style="text-align: center;" autocomplete="off">
+                                <label form="Time"></label>
+                                <input type="time" class="form-control" id="Time" style="text-align: center;" placeholder="Time In">
+                            </div>
+                            <div class="row buttons2">
+                                <button type="submit" id="submit-form-button" class="btn btn-primary submit" onclick="submitForm()">Submit</button>
+                                <button id="cancel-form-button" class="btn btn-secondary cancel" onclick="addRowAndSave()">Cancel</button>
+                            </div>
+                        </form>                        
+                    </div>
+                </div>   
+            </div>            
+              
+        </div>
+        </div> 
+
+        <div id="confirmationModal" class="card" style="display:none;">
+            <div class="modal-content">
+                <p>Are you sure you want to <strong style="color: #972929; text-decoration: underline;">Delete</strong> the Table's Content?</p>
+                <button onclick="cancelReset()">Cancel</button>
+                <button onclick="confirmResetAction()" id="modal-delete-button">Delete All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        window.onload = resetTableView;
+    </script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

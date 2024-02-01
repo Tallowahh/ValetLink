@@ -1,0 +1,238 @@
+.image-container {
+    max-width: 100%;
+    margin-top: 100%;
+    text-align: center;
+}
+
+.form-container {
+    background-color:#362525;
+    margin: 2%;
+}
+
+.image-container img {
+    max-width: 90%;
+    height: auto;
+}
+
+.buttons {
+    justify-content: end;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+.buttons2 {
+    justify-content: center;
+}
+
+.table-container {
+    margin-top: 1%;
+    height: 65%;
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.bottom-div {
+    position: absolute;
+    width: 95%;
+}
+
+.odd {
+    background-color: #e0e0e0;
+    color: #383838;
+}
+
+.rynum {
+    font-weight: bold;
+}
+
+#resetTableButton {
+    margin-right: 10px;
+}
+
+.current-charge {
+    font-weight: bold;
+}
+
+.even {
+    background-color: #d1d1d1; 
+    color: #383838;
+}
+
+.buttons button {
+    margin: 0 10px;
+    font-size: 15pt;
+    margin-right: 1%;
+    margin-left: 1%;
+    max-width: auto;
+    border: none;    
+    border-color: transparent;
+}
+
+#RYNumber {
+    margin-top: 10px;
+
+}
+
+.submit {
+    background-color: #4385e7;
+    border: none;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cancel {
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    background-color: #4385e7;
+    border: none;
+    border-color: transparent;
+}
+
+
+.buttons .buttons2 button:hover {
+    background-color: #3c71c0;
+    border: none;
+    border-color: transparent;
+}
+
+.buttons2 button:disabled {
+    background-color: gray; /* Set the background color for disabled state */
+    color: #ccc; /* Set the text color for disabled state */
+    cursor: not-allowed; /* Change cursor to "not-allowed" for disabled state */
+}
+
+#search-button:disabled {
+    background-color: gray; /* Set the background color for disabled state */
+    color: #ccc; /* Set the text color for disabled state */
+    cursor: not-allowed; /* Change cursor to "not-allowed" for disabled state */
+}
+
+.buttons button:disabled {
+    background-color: gray; /* Set the background color for disabled state */
+    color: #ccc; /* Set the text color for disabled state */
+    cursor: not-allowed; /* Change cursor to "not-allowed" for disabled state */
+}
+
+#RYNumber::placeholder {
+    color: #3736365d; /* Replace with your desired color */
+    font-size: 11pt;
+}
+
+.forms {
+    background-color: rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+.search-bar {
+    width: 100%; /* Adjust as needed */
+}
+
+.form-inline.searching {
+    display: flex;
+    justify-content: flex-start; /* Or 'space-around' depending on preference */
+    width: 100%; /* Ensure it takes the full width of its container */
+}
+
+.form-group {
+    margin: 0 10px; /* Optional margin for spacing */
+}
+
+.form-control {
+    width: 100%; /* Makes the input take full width of its container */
+}
+
+.form-group {
+    margin: 0 10px; /* Adds 10px margin on both sides */
+}
+
+
+.titles {
+    background-color: #646464;
+    color:#e0e0e0;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+
+.hourly-information {
+    background-color: #CECECE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.left-bar {
+    padding: 1%;
+    background-color: #575757;
+    display: flex;
+    height: 95vh;
+    border-top-left-radius: 8px; /* Round the top-left corner */
+    border-bottom-left-radius: 8px;
+    justify-content: center;
+}
+
+.content {
+    padding: 1%;
+    background-color: #e1e1e1;
+    position: relative;
+    flex-direction: column;
+    height: 95vh;
+    border: 1px solid #CECECE;
+    border-left: none;
+}
+
+.all-content {
+    width: 95%;
+}
+
+#confirmationModal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    width: 300px;    
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the buttons in the modal */
+.modal-content button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#modal-delete-button {
+    background-color: #972929;
+    color: white;
+}
+
+.gray-button {
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: not-allowed; /* Change cursor to "not-allowed" when buttons are disabled */
+}
+
+.bold-text {
+    font-size: 17px; /* Adjust the font size as needed */
+}
+
+.search-text {
+    font-size: 20px;
+}
