@@ -1,2 +1,7 @@
 Format the time added into the "Time In" Column to be on a 12 Hour Format
 Create a functionality that calculates the amount of time that has passed since the time inputted and counts
+Connect back end to a MongoDB database that facilitates CRUD functionality.
+
+
+Layout:
+Place the RY Table and Search bar into its own row and the buttons with its form in another row.

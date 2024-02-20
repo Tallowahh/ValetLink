@@ -277,7 +277,7 @@ function searchTable(searchInput) {
     }
 
     if (!found) {
-        document.getElementById('search-result').innerHTML = 'No results found for RY Number: ' + searchInput;
+        document.getElementById('search-result').innerHTML = 'RY Number: ' + searchInput + ' not found';
     }
 }
 

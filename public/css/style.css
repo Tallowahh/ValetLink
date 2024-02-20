@@ -24,6 +24,12 @@
     justify-content: center;
 }
 
+.table-information {
+    height: 65%;
+    max-height: 800px;
+    overflow-y: auto;
+}
+
 .table-container {
     margin-top: 1%;
     height: 65%;
@@ -127,6 +133,7 @@
 
 .forms {
     background-color: rgb(184, 184, 184);
+    margin-top: 10px;
     border-radius: 5px;
 }
 
