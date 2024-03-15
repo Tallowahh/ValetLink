@@ -17,10 +17,13 @@ Valet Link is a comprehensive web-based parking terminal designed to streamline 
 
 Open https://tallowahh.github.io/ValetLink/
 
-Add a Vehicle: Click on the "Add Vehicle" button and fill in the vehicle details in the popup form to register a vehicle into the system.
-Search for a Vehicle: Use the search bar above the vehicle table to filter and find specific vehicle information.
-Delete All Information: To clear all data from the system, click on the "Delete All Information" button. Please note, this action cannot be undone.
-Reset Table: If you wish to clear the search filter and refresh the vehicle list, click the "Reset Table" button.
+**Add a Vehicle:** Click on the "Add Vehicle" button and fill in the vehicle details in the popup form to register a vehicle into the system.
+
+**Search for a Vehicle:** Use the search bar above the vehicle table to filter and find specific vehicle information.
+
+**Delete All Information:** To clear all data from the system, click on the "Delete All Information" button. Please note, this action cannot be undone.
+
+**Reset Table:** If you wish to clear the search filter and refresh the vehicle list, click the "Reset Table" button.
 
 ## Support
 For support or any questions regarding Valet Link, please open an issue on the GitHub repository page.
