@@ -11,7 +11,7 @@ Valet Link is a comprehensive web-based parking terminal designed to streamline 
 - Incremental Time Tracking and Billing: Automatically track the duration each vehicle has been parked and calculate the parking fees accordingly. This feature ensures accurate billing based on the amount of time a vehicle spends in the facility.
 
 ## Getting Started
-** Prerequisites
+**Prerequisites**
 - A modern web browser.
 - Internet connection.
 
